@@ -1,4 +1,9 @@
+**********************************************************************
+* F . Brito e Abreu
+**********************************************************************
+
 For more information on a specific command, type HELP command-name
+_______________________________________________________________________
 ASSOC          Displays or modifies file extension associations.
 ATTRIB         Displays or changes file attributes.
 BREAK          Sets or clears extended CTRL+C checking.
