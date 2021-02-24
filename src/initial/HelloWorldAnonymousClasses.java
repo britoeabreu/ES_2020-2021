@@ -1,4 +1,5 @@
 package initial;
+
 public class HelloWorldAnonymousClasses
 {
 	private int population;
