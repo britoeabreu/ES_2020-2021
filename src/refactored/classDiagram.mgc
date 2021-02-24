@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="refactored.Main" x="30" y="102">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="refactored.HelloWorld"
+            endpointName="englishGreeting" kind="Simple"/>
+        <Association destinationClassName="refactored.HelloWorld"
+            endpointName="spanishGreeting" kind="Simple">
+            <Point x="241" y="194"/>
+        </Association>
+        <Association destinationClassName="refactored.HelloWorld"
+            endpointName="frenchGreeting" kind="Simple">
+            <Point x="231" y="41"/>
+        </Association>
+        <Communication destinationClassName="refactored.HelloWorld"/>
+    </Class>
+    <Class name="refactored.HelloWorld" x="335" y="85">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="refactored.FrenchGreeting" x="334" y="255">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="refactored.HelloWorld"/>
+    </Class>
+    <Class name="refactored.SpanishGreeting" x="120" y="253">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="refactored.HelloWorld"/>
+    </Class>
+    <Class name="refactored.EnglishGreeting" x="555" y="255">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="refactored.HelloWorld"/>
+    </Class>
+</ClassDiagram>
