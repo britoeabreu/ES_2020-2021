@@ -3,6 +3,8 @@ package initial;
 class EnglishGreeting extends HelloWorld
 {
 	private final HelloWorldAnonymousClasses container;
+	
+	/*jhjkhkj*/
 
 	EnglishGreeting(HelloWorldAnonymousClasses helloWorldAnonymousClasses2, HelloWorldAnonymousClasses helloWorldAnonymousClasses)
 	{
